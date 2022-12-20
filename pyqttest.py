@@ -11,7 +11,9 @@ window.setGeometry(200, 200, 600, 300)
 
 #Text einfügen
 txt1 = QLabel("Hallo Welt!", parent=window)
+txt2 = QLabel("Hallo Tobias!", parent=window)
 txt1.move(250, 130)
+txt2.move(250, 150)
 
 window.show()
 sys.exit(app.exec())
